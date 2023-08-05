@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: borde border-box;
+    background-color: #f9f5ed;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    padding: 20px 5%;
+    height: 10vh;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 5%;
+    font-weight: 700;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    color:#FBB215 ;
+}
+nav ul li img{
+    width: 250px;
+    margin-inline-start: 0%;
+    margin-right: 600px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+.mainleft{
+    width: 40%;
+    padding-left: 10%;
+}
+.mainleft h1{
+    font-size: 60px;
+}
+.mainleft p{
+    margin: 5% 0%;
+}
+.mainleft button{
+    padding: 15px 20px;
+    font-size:18px;
+    font-weight: 600;
+    color: #f9f5ed;
+    border: none;
+    border-radius: 20px;
+    background-color: #CECDCB;
+}
+
+.mainleft button:hover{
+    background-color: #FBB215;
+    color: #f9f5ed;
+}
+
+.mainright{
+    width: 60%;
+    padding-left: 20%;
+}
+.mainright div img:first-child{
+    margin-right: 2px;
+    border: none;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+
+}
+.mainright div img:last-child{
+    border: none;
+    border-radius: 20px;
+    height: 250px;
+    width: 200px;
+}
+.mainright img{
+    margin: 2px 2px;
+    border: none;
+    border-radius: 20px;
+    height: 200px;
+    width: 400px;
+}
